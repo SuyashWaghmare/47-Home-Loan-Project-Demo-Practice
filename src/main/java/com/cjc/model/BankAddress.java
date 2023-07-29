@@ -16,13 +16,13 @@ import lombok.NoArgsConstructor;
 public class BankAddress {
 
 	@Id
-	public int aid;
-	public String areaName;
-	public String streetName;
-	public String cityName;
-	public double pincode;
-	public String district;
-	public String state;
+	private int aid;
+	private String areaName;
+	private String streetName;
+	private String cityName;
+	private double pincode;
+	private String district;
+	private String state;
 	
 	
 }

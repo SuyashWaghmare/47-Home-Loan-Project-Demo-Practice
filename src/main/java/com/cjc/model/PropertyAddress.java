@@ -16,12 +16,12 @@ import lombok.NoArgsConstructor;
 public class PropertyAddress {
 
 	@Id
-	public int aid;
-	public String areaName;
-	public String cityName;
-	public String district;
-	public String state;
-	public double pincode;
-	public String streetName;
+	private int aid;
+	private String areaName;
+	private String cityName;
+	private String district;
+	private String state;
+	private double pincode;
+	private String streetName;
 	
 }

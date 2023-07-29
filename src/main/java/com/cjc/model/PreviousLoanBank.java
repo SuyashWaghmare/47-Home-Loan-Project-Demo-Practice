@@ -17,18 +17,18 @@ import lombok.NoArgsConstructor;
 @Builder
 public class PreviousLoanBank {
 
-	public String bankName;
-	public String branchName;
-	public double branchCode;
+	private String bankName;
+	private String branchName;
+	private double branchCode;
 	@Id
-	public int branchID;
-	public String branchType;
-	public String IFSCCode;
-	public String MICRCode;
-	public double contactNo;
+	private int branchID;
+	private String branchType;
+	private String IFSCCode;
+	private String MICRCode;
+	private double contactNo;
 	@OneToOne(cascade = CascadeType.ALL)
-	public BankAddress bankAddress;
-	public String Email;
-	public String status;
+	private BankAddress bankAddress;
+	private String Email;
+	private String status;
 	
 }

@@ -16,8 +16,8 @@ import lombok.NoArgsConstructor;
 public class EMIDetails {
 
 	@Id
-	public int emiID;
-	public double emiAmountMonthly;
-	public String nextEmiDueDate;
-	public String previousEmiStatus;
+	private int emiID;
+	private double emiAmountMonthly;
+	private String nextEmiDueDate;
+	private String previousEmiStatus;
 }
