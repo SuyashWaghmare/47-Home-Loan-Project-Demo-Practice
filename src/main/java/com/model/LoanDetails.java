@@ -20,7 +20,7 @@ public class LoanDetails {
 	private int loanId;
 	private int loanNo;
 	@OneToOne
-	//private EMIDetails emidetails;
+	private EMIDetails emidetails;
 	private double loanAmount;
 	private int rateOfIntrest;
 	private int tenure;

@@ -19,7 +19,7 @@ public class Profession {
 	private int pid;
 	private String pType;
 	private double psalary;
-	//private psalaryType(cash/account);
+	private psalaryType(cash/account);
 	private String pworkingperiod;
 	private String pDesignation;
 	private byte[]  pSalarySlip;
