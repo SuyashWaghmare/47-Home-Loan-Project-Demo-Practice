@@ -1,4 +1,4 @@
-package com.model;
+package com.cjc.model;
 
 
 import javax.persistence.OneToOne;
