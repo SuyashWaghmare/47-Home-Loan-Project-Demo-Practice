@@ -5,21 +5,21 @@ import lombok.Data;
 @Data
 public class SanctionLetter {
 
-	int sid;
-	String sanctionDate;
-	int prospectNo;
-	String applicationDate;
-	double contactDetails;
-	String producthomeEquity;
-	Double loanAmtSanctioned;
-	String interestType;
-	int reteOfInterest;
-	int loanTenure;
-	Double monthlyEmiAmount;
-	String modeOTPPayment;
-	String remarks;
-	String termsAndCondition;
-	String status;
+private	int sid;
+private	String sanctionDate;
+private	int prospectNo;
+private	String applicationDate;
+private	double contactDetails;
+private	String producthomeEquity;
+private	Double loanAmtSanctioned;
+private	String interestType;
+private	int reteOfInterest;
+private	int loanTenure;
+private	Double monthlyEmiAmount;
+private	String modeOTPPayment;
+private	String remarks;
+private	String termsAndCondition;
+	private	String status;
 	
 	
 }
