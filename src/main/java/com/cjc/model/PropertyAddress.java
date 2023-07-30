@@ -21,7 +21,7 @@ public class PropertyAddress {
 	private String cityName;
 	private String district;
 	private String state;
-	private double pincode;
+	private long pincode;
 	private String streetName;
 	
 }

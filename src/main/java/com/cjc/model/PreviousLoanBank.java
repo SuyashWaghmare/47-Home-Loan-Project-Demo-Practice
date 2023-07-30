@@ -19,13 +19,13 @@ public class PreviousLoanBank {
 
 	private String bankName;
 	private String branchName;
-	private double branchCode;
+	private long branchCode;
 	@Id
 	private int branchID;
 	private String branchType;
 	private String IFSCCode;
 	private String MICRCode;
-	private double contactNo;
+	private long contactNo;
 	@OneToOne(cascade = CascadeType.ALL)
 	private BankAddress bankAddress;
 	private String Email;

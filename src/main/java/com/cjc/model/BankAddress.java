@@ -20,7 +20,7 @@ public class BankAddress {
 	private String areaName;
 	private String streetName;
 	private String cityName;
-	private double pincode;
+	private long pincode;
 	private String district;
 	private String state;
 	
